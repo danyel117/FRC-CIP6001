@@ -85,21 +85,7 @@ def mover(direccion,distancia):
 inicial()
 
 #Escribir aquí el código---------------------------------------------->
-mover("adelante",150)
-mover("derecha",90)
-mover("adelante",380)
-mover("izquierda",90)
-mover("adelante",150)
-mover("izquierda",90)
-mover("adelante",200)
-mover("derecha",90)
-mover("adelante",1000)
-mover("derecha",90)
-mover("adelante",300)
-mover("izquierda",90)
-mover("adelante",450)
-mover("izquierda",90)
-mover("adelante",500)
+
 #<---------------------------------------------------------------------
 
 turtle.done()
