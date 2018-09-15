@@ -90,7 +90,8 @@ def sensarPared():
 def mover(direccion,distancia):
     if direccion=="adelante":
         for i in range (0,distancia):
-            robot.forward(1)
+            if sensarPared()!="gris":
+                robot.forward(1)
     if direccion=="derecha":
         robot.right(distancia)
     if direccion=="izquierda":
