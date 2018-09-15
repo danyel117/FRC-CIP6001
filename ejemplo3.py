@@ -103,22 +103,6 @@ inicial()
 
 #Escribir aquí el código---------------------------------------------->
 
-
-for i in range(0,2):
-    while sensarPared()!="gris":
-        mover("adelante",1)
-    mover("derecha",90)
-
-    for j in range (0,2):
-        while sensarPared()!="gris":
-            mover("adelante",1)
-        mover("izquierda",90)
-
-    while sensarPared()!="gris":
-        mover("adelante",1)
-    mover("derecha",90)
-
-print(square4.position(),robot.position())
 #<---------------------------------------------------------------------
 
 turtle.done()
